@@ -2,25 +2,27 @@
   background-color: $footer-hero-bg-color;
 
   padding: 60px 0;
+
+  &__container {
+    display: flex;
+  }
 }
 
-.footer__container {
-  display: flex;
-}
-.footer__box-links > .list {
-  display: flex;
-}
 .footer__box-links {
   padding-top: 12px;
   margin-left: 70px;
+
+  & > .list {
+    display: flex;
+  }
+
+  &:last-child {
+    margin-left: auto;
+  }
 }
 
 .box-links__item:not(:last-child) {
   margin-right: 10px;
-}
-
-.footer__box-links:last-child {
-  margin-left: auto;
 }
 
 .box-links__link {

@@ -1,16 +1,18 @@
 .work {
   padding-bottom: 94px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.work__list {
-  display: flex;
-  justify-content: center;
-}
 .work__item {
   position: relative;
-}
-.work__item:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .work__text {
